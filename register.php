@@ -49,6 +49,7 @@ include 'koneksi.php';
                     </form>
                     <hr>
                     <p>Belum punya akun? <a href="login.php">Login Disini!</a></p>
+                    <p>Atau klik <a href="index.php">Kembali</a></p>
                 </div>
             </div>
         </div>

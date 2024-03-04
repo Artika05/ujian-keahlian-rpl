@@ -6,6 +6,7 @@ session_start();
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="shortcut icon" href="assets/img/bag.jpg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Galeri Foto</title>
@@ -38,12 +39,17 @@ session_start();
                         <input type="text" name="username" class="form-control" required>
                         <label class="form-label">Password</label>
                         <input type="password" name="password" class="form-control" required>
+                        <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Remember me
+                        </label>
                         <div class="d-grid mt-2">
                             <button class="btn btn-primary" type="submit" name="kirim">Masuk</button>
                         </div>
                     </form>
                     <hr>
                     <p>Belum punya akun? <a href="register.php">Daftar Disini!</a></p>
+                    <p>Atau klik <a href="index.php">Kembali</a></p>
                 </div>
             </div>
         </div>
